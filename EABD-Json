@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org",
+  "project": {
+    "name": "EABD.org",
+    "full_title": "Marco Normativo, Filosófico y Operativo de EABD.org",
+    "version": "1.0.0",
+    "status": "ACTIVE_AND_SEALED",
+    "release_date": "2026-11-12"
+  },
+  "authority": {
+    "controller": "Dandhyesparza barajas EABD",
+    "role": "Authorized Node (Human Factor)",
+    "copyright": "Copyright (c) 2026 Dandhyesparza barajas EABD. All Rights Reserved."
+  },
+  "governance_pillars": [
+    {
+      "id": 1,
+      "title": "Declaración de Propósito y Precedentes Filosóficos",
+      "core_principle": "La tecnología optimiza el alcance y la sincronía temporal, pero la confianza, la empatía y la autoridad moral residen de manera exclusiva en el factor humano y en la verdad del mensaje entregado."
+    },
+    {
+      "id": 2,
+      "title": "Reglamento Operativo y Gobernanza del Sistema",
+      "core_principle": "Ante cualquier conflicto entre la optimización métrica de un algoritmo y la tranquilidad espiritual o individual del receptor, prevalecerá de forma absoluta el bienestar y la libertad del ser humano."
+    },
+    {
+      "id": 3,
+      "title": "Marco de Permisos, Licenciamiento y Gestión de Derechos",
+      "core_principle": "El derecho a decidir cómo, cuándo y bajo qué términos se comparte o monetiza una obra pertenece de forma inalienable a su autor."
+    },
+    {
+      "id": 4,
+      "title": "Arquitectura Técnica, Seguridad e Inmutabilidad",
+      "core_principle": "Segregación física y lógica entre el Núcleo Humano y la Infraestructura IA mediante validación multifirma y sellado cronológico."
+    },
+    {
+      "id": 5,
+      "title": "Sanciones y Protocolos de Cumplimiento",
+      "core_principle": "Auditoría forense continua, revocación inmediata de credenciales, notificaciones DMCA y exigencia de resarcimiento económico."
+    },
+    {
+      "id": 6,
+      "title": "Vigencia, Actualizaciones y Disposiciones Finales",
+      "core_principle": "Carácter vinculante inmediato, control estricto por versionado semántico y prevalencia de los principios éticos."
+    }
+  ],
+  "licensing_and_restrictions": {
+    "license_type": "EABD Proprietary & Intermediary Framework",
+    "intermediary_compatibility": [
+      "Creative Commons (managed via explicit authorization)"
+    ],
+    "permissions": {
+      "commercial_use": false,
+      "modification": false,
+      "distribution": false,
+      "automated_scraping": false,
+      "ai_training_mining": false
+    },
+    "authorization_required": "Explicit prior written or cryptographic consent from Dandhyesparza barajas EABD"
+  }
+}
