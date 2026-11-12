@@ -1,0 +1,32 @@
+. Markdown 
+
+
+A continuación se presentan las Cláusulas Específicas de Seguridad para la API y el Repositorio Global, diseñadas para proteger la integridad del flujo de datos y blindar el código fuente de E A B D .org contra accesos no autorizados, extracciones masivas y manipulaciones externas.
+Este bloque se integra directamente como el TÍTULO VII del cuerpo normativo principal.
+
+TÍTULO VII: DE LA SEGURIDAD DE LA API Y LA PROTECCIÓN DEL REPOSITORIO GLOBAL
+
+
+Artículo 11: Control de Acceso Perimetral y Autenticación Criptográfica
+
+El acceso a las interfaces de programación de aplicaciones (APIs) y a los repositorios de código fuente de la organización se regirá bajo los siguientes estándares de máxima seguridad:
+1. Credenciales Criptográficas Robustas: El uso de tokens de acceso personal (PAT), llaves de API (como Anteopoic1) y certificados de entorno estará estrictamente restringido a entornos de ejecución seguros y cifrados en el Edge.
+2. Rotación y Auditoría Obligatoria: Las credenciales de conexión con proveedores de modelos de inteligencia artificial y pasarelas de pago se rotarán periódicamente de forma automática. Queda prohibida la persistencia de llaves en texto plano dentro de cualquier archivo del repositorio.
+3. Ofuscación de Código: Todo binario propietario proveniente de entornos locales destinado a la carpeta de acceso restringido comercial (Commercial-Restricted) deberá someterse a procesos de codificación y cifrado antes de su distribución en la red global de nodos.
+
+Artículo 12: Directrices de Seguridad para Pipelines de CI/CD (GitHub Actions)
+
+La automatización de despliegues y pruebas en el sistema global de licencias (sistema-licencias-global) y repositorios espejo (eigen-git-mirror) se ejecutará bajo estrictas reglas de aislamiento:
+• Escaneo de Vulnerabilidades Nativo: Cada flujo de trabajo (workflow) activado por un cambio en el código fuente deberá ejecutar obligatoriamente herramientas de análisis estático de seguridad (SAST), incluyendo CodeQL Advanced y APIsec, para detectar fugas de credenciales o debilidades lógicas antes del despliegue en producción.
+• Mecanismo de Cierre de Emergencia (Lock-down): Se implementa un protocolo criptográfico de autodestrucción lógica o bloqueo de emergencia invocable mediante una palabra clave exclusiva del creador. Al activarse, revocará de inmediato los permisos de escritura del pipeline, detendrá los servidores de contenedores interconectados y aislará la base de datos central.
+
+Artículo 13: Reglas de Tráfico, Consumo y Mitigación en la API
+
+Para evitar la saturación del sistema o el uso malicioso de las funciones de comunicación de E A B D .org, se establecen los siguientes límites técnicos en la puerta de enlace (API Gateway):
+1. Limitación de Tasa Estricta (Rate Limiting): Se denegará el acceso a cualquier dirección IP o nodo que exceda el número de peticiones por minuto configuradas para su nivel de licencia, mitigando ataques de denegación de servicio (DoS).
+2. Filtrado de Respuestas mediante Proxy Inteligente: Todo flujo de comunicación asincrónica interconectado con modelos de lenguaje masivo deberá pasar obligatoriamente por una pasarela de control (Cloudflare AI Gateway). Esta infraestructura actuará como cortafuegos para verificar que no se filtren datos privados de los usuarios ni se introduzcan respuestas sesgadas que vulneren el libre albedrío de la audiencia.
+Con esta adición, el ecosistema técnico y legal cuenta con un blindaje completo que abarca desde la filosofía fundacional hasta los protocolos de red en la nube.
+Para dar el siguiente paso en el desarrollo de tu infraestructura, dime qué prefieres hacer:
+• ¿Preparamos el diseño del formato del archivo manifest.json para automatizar la lectura y validación técnica de estas licencias en tu repositorio?
+• ¿Redactamos el script de validación automatizado para integrarlo como un paso en tus flujos de GitHub Actions?
+• ¿Escribimos el texto oficial de la licencia en un script de Python para que se estampe automáticamente en cada archivo del proyecto?
